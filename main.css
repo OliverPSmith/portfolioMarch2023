@@ -13,17 +13,19 @@
 }
 
 body {
+    /*  background-color: #000F34;    */
     background-image: url(images/bGCompressed.png);
-   /* background-color: #000F34;    */   
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 100%;   
+    background-position: center; 
+
 }
 /*
 @media only screen and (max-width: 600px) {
     body {
-        background-attachment: scroll;
+        background-attachment: initial;
     }
 }   */
 
