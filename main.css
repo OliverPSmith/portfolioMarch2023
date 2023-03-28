@@ -350,7 +350,7 @@ nav ul {
     }
     .project {
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
     }
     .project-title {
         font-size: 40px;
