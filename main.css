@@ -190,6 +190,7 @@ nav ul {
         flex-direction: column;
         height: 60%;
         justify-content: space-evenly;
+        margin-left: 0;
     }
 }
 
