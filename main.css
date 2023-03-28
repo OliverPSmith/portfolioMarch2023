@@ -13,12 +13,14 @@
 }
 
 body {
-  /*  background-image: url(images/bGCompressed.png);   */
-    background-color: #000F34;    
+    background-image: url(images/bGCompressed.png);
+   /* background-color: #000F34;    */   
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    
+    z-index: -10;
 }
 /*
 @media only screen and (max-width: 600px) {
