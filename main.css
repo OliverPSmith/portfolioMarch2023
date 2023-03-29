@@ -235,12 +235,9 @@ nav ul {
     position: relative;
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     #home {
         background-image: url(images/bGCompressed.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-position: center center;
     }
 }
