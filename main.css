@@ -203,11 +203,8 @@ nav ul {
         top: 0;
         left: 150%;
      /*   background-color: var(--col-main);    */
-        background-color: white;
         background-image: url(images/bGCompressed.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-color: white;
     }
     .menu.active {
         left: 0;
@@ -533,9 +530,6 @@ nav ul {
 @media only screen and (max-device-width: 999px) {
     #contact {
         background-image: url(images/bGCompressed.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-position: center center;
     }
 }
