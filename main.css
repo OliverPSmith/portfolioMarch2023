@@ -266,13 +266,18 @@ nav ul {
 
 .websites {
     padding: 100px 0;
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    width: 100%;
 }
+
 
 .project {
     margin-bottom: 10px;
     padding-bottom: 5px;
     display: flex;
-    align-items: first baseline;
+    align-items: baseline;
     width: 100%;
 }
 .project-title {
@@ -319,7 +324,6 @@ nav ul {
     margin: 10px;
     margin-bottom: 30px;
     height: 400px;
-
 }
 
 .img-container {
@@ -354,7 +358,7 @@ nav ul {
 
 @media only screen and (max-width: 999px) {
     .projects-container {
-        width: 100%;
+        width: 60%;
         margin-top: 25px;
     }
     .project {
@@ -366,6 +370,9 @@ nav ul {
         display: flex;
         justify-content: flex-end;
     }   
+    .project-desc {
+        margin-left: 0px;
+    }
     .designs {
         width: 90%;
     }
@@ -375,6 +382,9 @@ nav ul {
 }
 
 @media only screen and (max-width: 649px) {
+    .projects-container {
+        width: 90%;
+    }
     .project {
         width: 80%;
     }
