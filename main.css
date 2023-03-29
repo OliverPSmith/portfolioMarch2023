@@ -524,11 +524,7 @@ nav ul {
 
 @media only screen and (max-device-width: 699px) {
     #contact {
-        
-        background-image: url(images/bGCompressed.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background: url(images/bGCompressed.png);
         background-position: center center;
     }
 }
