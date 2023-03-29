@@ -18,8 +18,23 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 100% 100%;
 }
+
+@media only screen and (max-device-width: 699px) {
+    body {
+        background-attachment: scroll;
+        background-image: none;
+    }
+}
+
+
+/*
+@media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  } */
+
 /*
 @media only screen and (max-width: 600px) {
     body {
@@ -187,7 +202,9 @@ nav ul {
         height: 100%;
         top: 0;
         left: 150%;
-        background-color: var(--col-main);
+     /*   background-color: var(--col-main);    */
+        background: url(images/bGCompressed.png);
+        background-color: white;
     }
     .menu.active {
         left: 0;
@@ -213,6 +230,13 @@ nav ul {
     width: 100%;
 
     position: relative;
+}
+
+@media only screen and (max-device-width: 699px) {
+    #home {
+        background: url(images/bGCompressed.png);
+        background-position: center center;
+    }
 }
 
 .logo-splash {
@@ -252,6 +276,12 @@ nav ul {
     background: rgba(0, 0, 0, 0.75);
   /*  padding: 50px 0;  */
     color: var(--text-col);
+}
+
+@media only screen and (max-device-width: 699px) {
+    #projects {
+        background: rgb(35, 35, 35);
+    }
 }
 
 .projects-container {
@@ -405,6 +435,15 @@ nav ul {
    border-bottom: 2px solid var(--text-col);
 }
 
+@media only screen and (max-device-width: 699px) {
+    #about {
+        background-image: url(images/bGCompressed.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }   
+}
+
 .about-container {
     width: 90%;
     display: flex;
@@ -483,6 +522,16 @@ nav ul {
 
 #contact {
     padding: 50px 0 100px;
+}
+
+@media only screen and (max-device-width: 699px) {
+    #contact {
+        background-image: url(images/bGCompressed.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+    }
 }
 
 .contact-container {
