@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     body {
         background-attachment: scroll;
         background-image: none;
@@ -203,8 +203,11 @@ nav ul {
         top: 0;
         left: 150%;
      /*   background-color: var(--col-main);    */
-        background: url(images/bGCompressed.png);
         background-color: white;
+        background-image: url(images/bGCompressed.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     .menu.active {
         left: 0;
@@ -216,6 +219,8 @@ nav ul {
         margin-left: 0;
     }
 }
+
+
 
 
 /*------------------------------------------------------------------------------------  */
@@ -232,9 +237,12 @@ nav ul {
     position: relative;
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     #home {
-        background: url(images/bGCompressed.png);
+        background-image: url(images/bGCompressed.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-position: center center;
     }
 }
@@ -278,7 +286,7 @@ nav ul {
     color: var(--text-col);
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     #projects {
         background: rgb(15, 15, 15);
     }
@@ -435,7 +443,7 @@ nav ul {
    border-bottom: 2px solid var(--text-col);
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     #about {
         background: #1d5270;
     }   
@@ -522,9 +530,12 @@ nav ul {
     height: 100vh;
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-device-width: 999px) {
     #contact {
-        background: url(images/bGCompressed.png);
+        background-image: url(images/bGCompressed.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-position: center center;
     }
 }
