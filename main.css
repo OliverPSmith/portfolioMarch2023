@@ -18,7 +18,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
 }
 
 @media only screen and (max-device-width: 999px) {
@@ -28,29 +27,12 @@ body {
     }
 }
 
-
-/*
-@media only screen and (max-device-width: 1366px) {
-    body {
-      background-attachment: scroll;
-    }
-  } */
-
-/*
-@media only screen and (max-width: 600px) {
-    body {
-        background-attachment: initial;
-    }
-}   */
-
 html {
     scroll-behavior: smooth;
 }
 
 
 section {
-  /*  height: 100vh;
-    position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,11 +45,9 @@ section {
     position: absolute;
     top: 150px;
     left: 10px;
-
     color: var(--text-col);
     font-family: 'Poiret One', cursive;
     text-transform: lowercase;
-    
 }
 
 .section-heading::before {
@@ -149,7 +129,6 @@ section {
     top: -50%;
     transition: all .8s;
     z-index: 900;
- /*   background-color: rgba(29, 83, 114, 0.25);    */
 }
 .menu.active {
     top: 0;
@@ -188,12 +167,6 @@ nav ul {
     object-fit: contain;
 }
 
-/*
-.nav-socials {
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-}   */
 
 @media only screen and (max-width: 849px) {
     .hamburger {
@@ -228,10 +201,8 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100vh;
     width: 100%;
-
     position: relative;
 }
 
@@ -548,10 +519,8 @@ nav ul {
 }
 
 .contact-container h1 {
-  /*  margin-bottom: 32px;  */
     font-family: var(--font-fam-primary);
     font-style: italic;
-    
 }
 
 .contact-container p {
@@ -569,7 +538,6 @@ nav ul {
 .email-link {
     font-family: var(--font-fam-sec);
     font-size: 26px;
-  /*  margin: 32px 0;   */
 }
 .email-link:hover {
     color: white;
@@ -578,7 +546,6 @@ nav ul {
 .contact-logo {
     object-fit: contain;
     width: 150px;
-  /*  margin-top: 32px; */
 }
 
 
@@ -586,9 +553,6 @@ nav ul {
     .contact-container {
         padding: 50px 2px;
     }
- /*   .contact-container p {
-        margin-bottom: 8px;
-    }   */
 }
 
 
